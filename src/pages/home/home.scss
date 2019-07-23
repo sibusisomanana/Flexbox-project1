@@ -1,3 +1,142 @@
 page-home {
+    .flex-container {
+        display: flex;
+        font-size: 50px;
+        color: white;
+        font-size: 50px;
+        width: 100%;
+      
+      }
+      
+      .flex-container > div {
+      
+        margin: 0px;
+        padding: 0px;
+        font-size: 10px;
+
+        
+
+      }
+      .one{
+          width: 200%;
+      }
+
+     
+      .parent{
+        
+          background-image: url("https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+          padding: 60px;
+          width: 100%;
+      }
+      .div1{
+        background: linear-gradient(rgb(10, 33, 37),rgba(56, 152, 207, 0.116),rgb(255, 255, 255));
+        width: 200px;
+        margin: auto; 
+        height: 100px;
+        position: relative;
+        bottom: 20px;
+      }
+        .round{
+            border-radius: 100px;
+            margin: auto;
+            width: 120px;
+            height: 120px;  
+            float: left;
+    }
+    .round img{
+        object-fit: cover;
+    
+    }
+    img{
+        radius: 200px;
+    }
+    .sbu{
+        width: 100px;
+        background-color:white;
+        position: relative;
+      
+    }
+    .nkwe{
+        width: 100px;
+        background-color:white;
+        position: relative;
+    }
+
+    .div2{
+        background-color:white;
+        padding: 10px;
+        width: 200px;
+        margin: auto; 
+        height: 15px;
+        position: relative;
+ 
+
+    }
+    .div3{
+        background-color: white;
+        padding: 10px;
+        width: 150px;
+        margin: auto; 
+        height: 10px;
+        position: relative;
+        bottom: 5px;
+
+    }
+    h2{
+      color: white;
+    }
+    
+      .container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+
+      }
+     
+  
+      .box {
+        width: 100%;
+        height: 10%;
+     
+        border: 0px solid black;
+        flex-wrap: wrap;
+        overflow: hidden;
+        img{
+          width: 500% !important;
+          height: 100px !important;
+          object-fit: cover;
+        }
+      }
+
+    
+      .div1 {
+        width: 300px;
+        height:340px;
+        border: 0px solid black;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+      }
+      
+      
+      
+      
+
+
+.content{
+
+    background:repeating-linear-gradient(90deg,rgb(10, 70, 55),rgba(7, 58, 151, 0.562) ,rgb(37, 34, 34) )
+}
+
+
+
+
+      
+
+
+      
+      
+  
+
 
 }
